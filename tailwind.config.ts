@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+        tech: ['Orbitron', 'sans-serif'],
+      }
     },
   },
   plugins: [require('daisyui')],
